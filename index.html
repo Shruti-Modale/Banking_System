@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="vendor/aos/aos.css" rel="stylesheet">
+    
+  
+  <link rel="stylesheet" href="css/nav.css">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+ 
+</head>
+
+<body>
+       
+  <div class="topnav" id="myTopnav">
+    <a  class="brand" href="index.html"><i><b>Treasury Banking</b></i></a>
+    <a href="index.html" class="active"><b>Home</b></a>
+    <a href="transfer_hist.php" ><i ></i><b>Transaction History</b></a>
+    <a href="customer_details.php" ><i> </i><b>Customers Details</b></a>
+    <a href="index.html#aboutus"><b>About Us</b></a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+    </a>
+</div>
+
+    <div class="wrapper">
+      <table cellpadding="50pixles">
+        <tr>
+          <img src="img/homepage1.jpg" class="responsive" style="width: 100%; height:600px;">
+          <th style="background-color:rgb(252, 240, 225)">
+            
+            <h2 style="font-family:serif; color: #533d2be3; text-align: center; font-weight: bold; font-size: 40px;" >Online Banking</h2>
+            <hr style="background-color: cadetblue;">
+            <br>
+            <p style="font-family:serif; font-size: 20px; text-align: center;"> 
+              Online banking is designed to be convenient, saving your time and letting you do banking on your own schedule rather than only during the 
+              hours your local bank branch is open.
+    
+              Registration involves setting up a log-in—often your email address and password.
+              Once you complete registration, you can log in to your account and start banking online
+              with only your internet-enabled device.
+            </p>
+            <a href="https://www.thebalance.com/what-is-an-online-bank-315204" target="_blank" class="btn btn-outline-danger" 
+            style="position: absolute; left: 46%;">Learn More</a>
+          </th>
+          
+        </tr>
+        
+      </table>
+    </div>
+    
+    <section id="services" class="services section-bg" style="background-color:rgb(250, 245, 240)" >
+      <div class="container" style="align-items: center;">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Services</h2>
+          <p>Try These Services</p>
+        </div>
+
+        <div class="my-3 mx-auto container mycards">
+          <div class="box p-4">
+            <br>
+              <img src="img/Customer_details.png" class="img1" alt="Customer Details" style="height: 150px;width: 150px;">
+              <br>
+              <br>
+              <h3>View customer details</h3>
+              <p>
+                  View the details of customers in order to transfer money or see account balance and other details
+              </p>
+              <a href="customer_details.php" class="btn btn-outline-danger">View</a>
+          </div>
+          <div class="box p-4">
+              <img src="img/add_customers.jpg" class="img1" alt="Add Customers" style="height: 200px;width: 150px;">
+              <br>
+              <h3>Add Customers</h3>
+              <p>
+                Add customers to the bank in order to send and recieve money. 
+            </p>
+            <br><br><br>
+              <a href="add_customer.php" class="btn btn-outline-danger">Add now</a>
+          </div>
+          <div class="box p-4">
+              <img src="img/Transaction_Histry.jpg" class="img1" alt="Transaction History" style="height: 200px;width: 150px;">
+              <br>
+              <h3>Transaction History</h3>
+              <p>
+                  Click to view transactions of customers.
+              </p>
+              <br><br>
+              <a href="transfer_hist.php" class="btn btn-outline-danger">View Now</a>
+          </div>
+          <div class="box p-5">
+            <img src="img/card4.jpg" class="img1" alt="The Sparks Foundation" style="height: 200px;width: 150px;">
+            <h3>The Sparks Foundation</h3>
+            <p>
+                View The Sparks Foundation website.
+            </p>
+            <br><br>
+            <a href="https://www.thesparksfoundationsingapore.org/" class="btn btn-outline-danger">View Now</a>
+        </div>
+      </div>
+  
+      </div>
+    </section>
+    <section>
+         <div class="section-title" data-aos="fade-up">
+           <a id="aboutus"><h2>About Us</h2></a>
+
+           <p>GRIP Internship Task From The Sparks Foundation </p>
+             <h3>Task 1: Basic Banking System</h3>
+              <br><h3>Design & Developed By Shruti Modale</h3>  
+         <div>     
+    </section>
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+
+ 
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="vendor/php-email-form/validate.js"></script>
+  <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="vendor/venobox/venobox.min.js"></script>
+  <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="vendor/aos/aos.js"></script>
+
+  
+  <script src="js/main.js"></script>
+  <footer>
+    <div>
+      <a href="https://www.youtube.com/"><i class="fa fa-youtube-play" style="color:white"></i></a>&nbsp;
+      <a href="https://www.linkedin.com/in/shruti-modale-a55a76211/"><i class="fa fa-linkedin-square" style="color:white"></i></a>&nbsp;
+      <a href="https://www.google.com/"><i class="fa fa-google" style="color:white"></i></a>&nbsp;
+      <a href="https://github.com/Shruti-Modale"><i class="fa fa-github" style="color:white"></i></a>&nbsp;
+      </div> 
+      <small>&copy; Copyright 2021, Shruti Modale</small>
+      <br>
+    </footer>
+
+</body>
+
+</html>
